@@ -1,5 +1,5 @@
 /* hero background image */
-.bgimage {
+.dog {
     height:800px;
     width: 100%;
     background: url('../Image/Banner.jpg');
@@ -8,10 +8,10 @@
 }
 
 /* text css above hero image*/
-.hero_title {
+.Name {
     font-size: 4.5rem;
 }
-.hero_desc {
+.Webdev {
     font-size: 2rem;
 }
 .hero-text {
@@ -96,5 +96,40 @@
 
 #projects .container {
     margin: auto;
+}
 
+.portfolio img {
+    height: 10em;
+    border-radius: 14px;
+    box-shadow: 1px 0 0 2px black;
+    transition: 1s ease;
+
+}
+
+.portfolio:hover {
+    transform: scale(1.5);
+    transition: 1s ease;
+
+}
+
+
+.Contact-Me-footer  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Contact-Me-footer p {
+    font-size: 20px;
+}
+.networklink{
+    color: white;
+    font-size: 1rem;
+}
+.networklink:hover {
+    cursor: pointer;
+    color: teal;
+}
+.networklink::after{
+    color: red;
 }
